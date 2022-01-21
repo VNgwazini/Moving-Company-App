@@ -4,8 +4,12 @@ import {
  Row,
  Col,
  Button,
- Carousel
+ Card,
+ ListGroup,
+ Badge,
 } from 'react-bootstrap/'
+import { AllInbox, BuildOutlined, Delete, EventSeat, HomeTwoTone, LocationCity } from "@material-ui/icons";
+
 import Testimonial from 'react-testimonial';
 
 
@@ -58,39 +62,39 @@ export default function Home() {
       <Row>
         <Col className="">
           <p className=" trusted-title text-center">
-          Trusted by great teams
+            Offered Services
           </p>
         </Col>
       </Row>
       <Row>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 1
+          <HomeTwoTone/> &nbsp; Residential Moving
           </p>
         </Col>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 2
+          <LocationCity/> &nbsp; Commercial Moving
           </p>
         </Col>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 3
+          <BuildOutlined/> &nbsp; Furniture Disassembly
           </p>
         </Col>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 4
+          <EventSeat/> &nbsp; Furniture Assembly
           </p>
         </Col>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 5
+          <Delete/> &nbsp; Junk/Trash Hauling
           </p>
         </Col>
-        <Col className="">
+        <Col className="" sm={3} md={4} lg={4}>
           <p className="text-center">
-          Company Logo 6
+          <AllInbox/> &nbsp; Packing &amp; Wrapping
           </p>
         </Col>
       </Row>
@@ -104,6 +108,7 @@ export default function Home() {
                     <img
                     className="py-2"
                     src="https://lh3.googleusercontent.com/a-/AOh14Gh9B93AFDIVhCHQfKm7rfB4qzRYJAsHBNeSklk9zg=w90-h90-p-rp-mo-br100"
+                    alt=""
                     >
                     </img>
                     <h3 className="py-2">Samuel Ekong</h3>
@@ -118,12 +123,13 @@ export default function Home() {
                   <img
                   className="py-2"
                   src="https://lh3.googleusercontent.com/a-/AOh14Gi0HGO8VARvl7tJafdvZ26K3u9yeyTUrfUi0Q3BKw=w90-h90-p-rp-mo-br100"
-                >
-                </img>
-                <h3 className="py-2">John O'Brien</h3>
-                <p>
-                  I used them for my move in Lake Arrowhead to San Bernardino and it was AWESOME. 
-                </p>
+                  alt=""
+                  >
+                  </img>
+                  <h3 className="py-2">John O'Brien</h3>
+                  <p>
+                    I used them for my move in Lake Arrowhead to San Bernardino and it was AWESOME. 
+                  </p>
                   </div>
                 </div>
                 <div className="card content">
@@ -131,7 +137,8 @@ export default function Home() {
                   <img
                   className="py-2"
                   src="https://lh3.googleusercontent.com/a-/AOh14GgHeevMaEqa2DKuCStuXI-kJMxV4DMX3kZlYM5bZQ=w90-h90-p-rp-mo-br100"
-                >
+                  alt=""
+                  >
                 </img>
                 <h3 className="py-2">Kat DeLong</h3>
                 <p>
@@ -145,6 +152,58 @@ export default function Home() {
         </Col>
       </Row>
     </Container>
+    <Container className="hoursMap content-container py-4 px-4" id="home" fluid="true">
+      <Row>
+        <Col className="d-flex justify-content-center py-4 px-4" lg={12} md={12} sm={12}>
+          <Card className="card-size">
+              <Card.Title className="text-center px-2 pb-4">Business Hours</Card.Title>
+              <Card.Body className="text-center">
+                <ListGroup variant="flush">
+                  <ListGroup.Item>Mon:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Tue:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Wed:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Thu:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Fri:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Sat:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  <ListGroup.Item>Sun:	7:00 AM – 8:00 PM</ListGroup.Item>
+                </ListGroup>
+                <Card.Text>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          </Row>
+          </Container>
+    <Container className="hoursMap content-container py-4 px-4" id="home" fluid="true">
+          <Row>
+          <Col className="d-flex justify-content-center align-items-center py-4 px-4" lg={12} md={12} sm={12}>
+          <Card className="card-size flex-grow-1">
+            <Card.Title className="text-center px-2">DIRECTIONS</Card.Title>
+            <Card.Body className="text-center">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.018165204766!2d-117.19765578478317!3d34.12028468058739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c355fd7936f583%3A0xf523a483338a59b9!2sNitro%20Moving%20Company!5e0!3m2!1sen!2sus!4v1642773253836!5m2!1sen!2sus"
+                frameborder="0"
+                title="Google Maps embed"
+                className=""
+                loading="lazy"
+              >
+              </iframe>
+              <br></br>
+              <Card.Text>
+                7428 Boulder Ave, Highland, CA 92346
+              </Card.Text>
+              <a href="https://g.page/nitro-moving-company?share" target="_blank" rel="noreferrer">
+                <p className="directions d-flex justify-content-center">
+                <Badge bg="danger">Click Here to Open Google Maps</Badge>
+                </p>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+   </Container>
    </Container>
   )
 }
