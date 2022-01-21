@@ -17,7 +17,7 @@ export default function Home() {
  
  return (
    <Container className="home content-container py-4" id="home" fluid="true">
-    <Container className="content-container py-4 px-4" fluid="true">
+    <Container className="content-container py-4 px-4">
       <Row>
         <Col className="">
           <p className="text-center pt-4">
@@ -35,26 +35,26 @@ export default function Home() {
       <Row>
         <Col className="">
           <p className="text-center py-2">
-          Your source of truth for every candidate relationship. 
-          Track each touchpoint in the talent acquisition funnel and drive better decisions with predictive analytics.
+          Your source of a stress-free moving experience. 
+          Let us take care of your moving needs, from door to door.
           </p>
         </Col>
       </Row>
       <Row className="primary-buttons py-4">
         <Col className="">
-          <Button variant="danger">
+          <Button variant="danger" href="https://calendly.com/vusumuzi-ngwazini" target="_blank">
           Book an Appointment
           </Button>
         </Col>
         <Col className="">
-          <Button variant="outline-danger">
+          <Button variant="outline-danger" href="tel:+1-909-963-6249">
             Speak with a Representative
           </Button>
         </Col>
       </Row>
-      <Row className="px-4">
-          <Col className="py-4 px-4 d-flex justify-content-center">
-            <img src="assets/NitroTruck.png"></img>
+      <Row>
+          <Col className="py-4 d-flex justify-content-center">
+            <img src="assets/NitroTruck.png" alt=""></img>
           </Col>
       </Row>
     </Container>
@@ -152,10 +152,10 @@ export default function Home() {
         </Col>
       </Row>
     </Container>
-    <Container className="hoursMap content-container py-4 px-4" id="home" fluid="true">
-      <Row>
-        <Col className="d-flex justify-content-center py-4 px-4" lg={12} md={12} sm={12}>
-          <Card className="card-size">
+    <Container className="hours content-container py-4 px-4" id="home" fluid="true">
+        <Row>
+          <Col className="d-flex justify-content-center py-4 px-4" lg={12} md={12} sm={12}>
+            <Card className="card-size">
               <Card.Title className="text-center px-2 pb-4">Business Hours</Card.Title>
               <Card.Body className="text-center">
                 <ListGroup variant="flush">
@@ -172,11 +172,11 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-          </Row>
-          </Container>
-    <Container className="hoursMap content-container py-4 px-4" id="home" fluid="true">
-          <Row>
-          <Col className="d-flex justify-content-center align-items-center py-4 px-4" lg={12} md={12} sm={12}>
+        </Row>
+    </Container>
+    <Container className="map content-container py-4 px-4" id="home" fluid="true">
+      <Row>
+        <Col className="d-flex justify-content-center align-items-center py-4 px-4" lg={12} md={12} sm={12}>
           <Card className="card-size flex-grow-1">
             <Card.Title className="text-center px-2">DIRECTIONS</Card.Title>
             <Card.Body className="text-center">
