@@ -1,0 +1,43 @@
+.home{
+  font-size: x-large;
+  position:relative;
+  background: white;
+  color: maroon;
+
+  .home-title{
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .trusted{
+    background-color: whitesmoke;
+  }
+
+  .trusted-title{
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .primary-buttons{
+    // justify-content: space-around !important;
+    text-align: center;
+  }
+
+  .testimonials{
+    height: min-content;
+    justify-content: center;
+    align-items: center !important;   
+    
+    img{
+      height: 50%;
+    }
+
+    h3{
+      color: black;
+    }
+    p{
+      color: black;
+      font-size: medium;
+    }
+  }
+}
