@@ -7,7 +7,7 @@ import {Directions,Phone, Mail, Instagram} from "@material-ui/icons"
 export default function Footer() {
   return (
     <Container className="welcome py-4 content-container" id="welcome" fluid="true">
-    <div className="footer d-flex align-items-center justify-content-between pl-1 pr-2 py-4">
+    <div className="footer d-flex align-items-center justify-content-between px-2 py-4">
       <span className="d-flex justify-content-start">Nitro Moving Company © 2022 </span>
       <span className="d-flex justify-content-between">
         <a 
