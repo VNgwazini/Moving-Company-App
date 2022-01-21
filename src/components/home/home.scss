@@ -24,20 +24,17 @@
   }
 
   .testimonials{
-    height: min-content;
-    justify-content: center;
-    align-items: center !important;   
-    
-    img{
-      height: 50%;
-    }
-
     h3{
-      color: black;
+      color: maroon;
     }
     p{
       color: black;
       font-size: medium;
     }
   }
+
+  .card{
+    border-color: transparent !important;
+  }
+
 }
