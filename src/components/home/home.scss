@@ -1,0 +1,59 @@
+.home{
+  font-size: x-large;
+  position:relative;
+  background: white;
+  color: maroon;
+  position:relative;
+
+
+  .home-title{
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .trusted{
+    background-color: whitesmoke;
+    p{
+      font-size: medium;
+    }
+  }
+
+  .trusted-title{
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .primary-buttons{
+    // justify-content: space-around !important;
+    text-align: center;
+  }
+
+  .testimonials{
+    h3{
+      color: maroon;
+    }
+    p{
+      color: black;
+      font-size: medium;
+    }
+  }
+  .list-group-item{
+    font-size: medium;
+  }
+  .card{
+    border-color: transparent !important;
+  }
+
+  .card-text{
+    font-size: medium;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .hours{
+    background-color: whitesmoke;
+  }
+
+}
