@@ -154,7 +154,7 @@ export default function Home() {
     </Container>
     <Container className="hours content-container py-4 px-4" id="home" fluid="true">
         <Row>
-          <Col className="d-flex justify-content-center py-4 px-4" lg={12} md={12} sm={12}>
+          <Col className="d-flex justify-content-center py-4 px-4" lg={4} md={12} sm={12}>
             <Card className="card-size">
               <Card.Title className="text-center px-2 pb-4">Business Hours</Card.Title>
               <Card.Body className="text-center">
@@ -172,13 +172,9 @@ export default function Home() {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-    </Container>
-    <Container className="map content-container py-4 px-4" id="home" fluid="true">
-      <Row>
-        <Col className="d-flex justify-content-center align-items-center py-4 px-4" lg={12} md={12} sm={12}>
+          <Col className="map d-flex justify-content-center align-items-center py-4 px-4" lg={8} md={12} sm={12}>
           <Card className="card-size flex-grow-1">
-            <Card.Title className="text-center px-2">DIRECTIONS</Card.Title>
+            <Card.Title className="text-center px-2">Directions</Card.Title>
             <Card.Body className="text-center">
               <iframe
                 width="560"
@@ -202,8 +198,8 @@ export default function Home() {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-   </Container>
+        </Row>
+    </Container>
    </Container>
   )
 }

@@ -54,6 +54,23 @@
 
   .hours{
     background-color: whitesmoke;
+    .card{
+      background-color: whitesmoke;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .map{
+    .card{
+      background-color: whitesmoke;
+    }
+  }
+
+  .heading{
+    background-color: whitesmoke;
   }
 
 }
