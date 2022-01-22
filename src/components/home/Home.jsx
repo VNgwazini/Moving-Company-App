@@ -102,7 +102,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="content-container testimonials py-4" fluid="true">
+      <Container className="content-container testimonials py-4 px-4">
         <Row>
           <Col>
             <Testimonial>
@@ -154,12 +154,24 @@ export default function Home() {
               </Testimonial>
           </Col>
         </Row>
+        <Row className="primary-buttons py-4 d-flex justify-content-center">
+            <Col className="">
+              <Button variant="danger" href="https://search.google.com/local/writereview?placeid=ChIJg_U2ef1Vw4ARuVmKM4OkI_U" target="_blank">
+                WRITE A REVIEW
+              </Button>
+            </Col>
+            <Col className="">
+              <Button variant="outline-danger" href="https://search.google.com/local/reviews?placeid=ChIJg_U2ef1Vw4ARuVmKM4OkI_U" target="_blank">
+                READ MORE
+              </Button>
+            </Col>
+          </Row>
       </Container>
       <Container className="hours content-container py-4 px-4" id="home" fluid="true">
           <Row>
-            <Col className="d-flex justify-content-center py-4 px-4" lg={4} md={12} sm={12}>
+            <Col className="d-flex justify-content-center py-4" lg={4} md={12} sm={12}>
               <Card className="card-size">
-                <Card.Title className="text-center px-2 pb-4">Business Hours</Card.Title>
+                <Card.Title className="text-center px-2">Business Hours</Card.Title>
                 <Card.Body className="text-center">
                   <ListGroup variant="flush">
                     <ListGroup.Item>Mon:	7:00 AM – 8:00 PM</ListGroup.Item>
