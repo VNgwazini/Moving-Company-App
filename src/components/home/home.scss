@@ -3,7 +3,6 @@
   position:relative;
   background: white;
   color: maroon;
-  position:relative;
 
 
   .home-title{
@@ -24,7 +23,7 @@
   }
 
   .primary-buttons{
-    // justify-content: space-around !important;
+    justify-content: space-around !important;
     text-align: center;
   }
 
@@ -53,6 +52,26 @@
   }
 
   .hours{
+    background-color: whitesmoke;
+    .card{
+      background-color: whitesmoke;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .list-group-item{
+        background-color: whitesmoke;
+      }
+    }
+  }
+
+  .map{
+    .card{
+      background-color: whitesmoke;
+    }
+  }
+
+  .heading{
     background-color: whitesmoke;
   }
 

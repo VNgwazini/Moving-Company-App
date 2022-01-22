@@ -9,7 +9,7 @@ import {Home, Phone, Mail, Directions, Instagram } from "@material-ui/icons"
 export default function Topbar() {
   return (
     <Container className="topbar py-4 px-4 content-container" id="topbar" fluid="true">
-      <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed="top" id="navbar" className="px-3">
+      <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top" id="navbar" className="px-3">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Brand href="/">
         <img src="https://lh3.googleusercontent.com/p/AF1QipNzVunLTYR_R3EY-GVBN9AUHewv-3gtId7o2Oaf=s1280-p-no-v1" alt=""/>
