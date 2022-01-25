@@ -44,7 +44,7 @@ export default function Home() {
           </Row>
           <Row className="primary-buttons py-4">
             <Col className="">
-              <Button variant="danger" href="https://calendly.com/vusumuzi-ngwazini" target="_blank">
+              <Button variant="danger" href="https://calendly.com/nitromovingcompany" target="_blank">
               Book an Appointment
               </Button>
             </Col>
@@ -137,18 +137,46 @@ export default function Home() {
                   </div>
                   <div className="card content">
                     <div className="card-body text-center">
-                    <img
-                    className="py-2"
-                    src="https://lh3.googleusercontent.com/a-/AOh14GgHeevMaEqa2DKuCStuXI-kJMxV4DMX3kZlYM5bZQ=w90-h90-p-rp-mo-br100"
-                    alt=""
-                    >
-                  </img>
-                  <h3 className="py-2">Kat DeLong</h3>
-                  <p>
-                    Nigel and his crew were very professional, 
-                    handled our furniture with care (wrapped every piece), 
-                    courteous and thoughtful. 
-                  </p>
+                      <img
+                      className="py-2"
+                      src="https://lh3.googleusercontent.com/a-/AOh14GgY7tD91KtvCyRJpEpKBrTnl_GmJzK4rgrTWxnY-g=w90-h90-p-rp-mo-br100"
+                      alt=""
+                      >
+                      </img>
+                      <h3 className="py-2">Nomsa Chali</h3>
+                      <p>
+                      These guys were fast, and professional, I will definately call them again. 
+                      </p>
+                    </div>
+                  </div>
+                  <div className="card content">
+                    <div className="card-body text-center">
+                      <img
+                      className="py-2"
+                      src="https://lh3.googleusercontent.com/a-/AOh14GgHeevMaEqa2DKuCStuXI-kJMxV4DMX3kZlYM5bZQ=w90-h90-p-rp-mo-br100"
+                      alt=""
+                      >
+                      </img>
+                      <h3 className="py-2">Kat DeLong</h3>
+                      <p>
+                        Nigel and his crew were very professional, 
+                        handled our furniture with care (wrapped every piece), 
+                        courteous and thoughtful. 
+                      </p>
+                    </div>
+                  </div>
+                  <div className="card content">
+                    <div className="card-body text-center">
+                      <img
+                      className="py-2"
+                      src="https://lh3.googleusercontent.com/a-/AOh14GjdRlkDORxkUZcaavRVTVqtFFrxQFFEwRfkNr6Ypg=w90-h90-p-rp-mo-br100"
+                      alt=""
+                      >
+                      </img>
+                      <h3 className="py-2">Brad Cave</h3>
+                      <p>
+                        Malvin is highly knowledgable with every aspect of the moving industry.   
+                      </p>
                     </div>
                   </div>
               </Testimonial>
@@ -214,6 +242,17 @@ export default function Home() {
             </Card>
           </Col>
           </Row>
+      </Container>
+      <Container className="py-2">
+        <Row>
+          <Col>
+            <p className="signature text-center">
+              <a href="https://vusa.io/" target="_blank" rel="noreferrer">
+                Built by Vusumuzi Ngwazini | vusa.io
+              </a>
+            </p>
+          </Col>
+        </Row>
       </Container>
     </FadeIn>
    </Container>
