@@ -24,7 +24,7 @@ export default function Footer() {
         </a>
         <a 
           target="_blank" 
-          href="mailto:malvinchali@gmail.com" 
+          href="mailto:nitromovingcompany@gmail.com" 
           rel="noreferrer">
           <Mail className="mx-1"/>
         </a>

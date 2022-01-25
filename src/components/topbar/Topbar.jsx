@@ -28,7 +28,7 @@ export default function Topbar() {
             <Directions className="icon"/>
             &nbsp; Directions
           </Nav.Link>
-          <Nav.Link href="mailto:malvinchali@gmail.com" target="_blank">
+          <Nav.Link href="mailto:nitromovingcompany@gmail.com" target="_blank">
             <Mail className="icon"/>
             &nbsp; Contact Us
           </Nav.Link>
