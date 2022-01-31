@@ -16,7 +16,7 @@ export default function Topbar() {
         </Navbar.Brand>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-          <Nav.Link href="/home">
+          <Nav.Link href="/">
             <Home className="icon"/>
             &nbsp; Home
           </Nav.Link>
