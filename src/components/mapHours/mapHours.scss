@@ -1,0 +1,46 @@
+.mapHours{
+  font-size: x-large;
+  position:relative;
+  background: white;
+  color: maroon;
+
+  .list-group-item{
+    font-size: medium;
+  }
+  .card{
+    border-color: transparent !important;
+  }
+
+  .card-text{
+    font-size: medium;
+  }
+
+  iframe{
+    width: 100%;
+  }
+
+  .hours{
+    background-color: whitesmoke;
+    .card{
+      background-color: whitesmoke;
+      .card-title{
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .list-group-item{
+        background-color: whitesmoke;
+      }
+    }
+  }
+
+  .map{
+    .card{
+      background-color: whitesmoke;
+    }
+  }
+
+  .heading{
+    background-color: whitesmoke;
+  }
+
+}

@@ -1,0 +1,24 @@
+.testimonials{
+  .primary-buttons{
+    justify-content: space-around !important;
+    text-align: center;
+  }
+
+  .testimonials{
+    h3{
+      color: maroon;
+    }
+    p{
+      color: black;
+      font-size: medium;
+    }
+  }
+  .card{
+    border-color: transparent !important;
+  }
+
+  .card-text{
+    font-size: medium;
+  }
+
+}
