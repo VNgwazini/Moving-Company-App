@@ -49,10 +49,14 @@ export default function Home() {
               </Button>
             </Col>
           </Row>
-          <Row>
-              <Col className="py-4 d-flex justify-content-center">
-                <img src="assets/NitroTruck.png" alt=""></img>
-              </Col>
+          <Row className="h-50">
+            <Col className="d-flex justify-content-center" lg={12} md={12} sm={12}>
+              <img
+              src="assets/NitroTruck.png"
+              alt="Headshot"
+              className="img-thumbnail"
+              />
+            </Col>
           </Row>
         </FadeIn>
       </Container>
