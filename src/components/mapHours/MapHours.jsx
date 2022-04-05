@@ -55,7 +55,7 @@ export default function MapHours() {
                 </Card.Text>
                 <a href="https://g.page/nitro-moving-company?share" target="_blank" rel="noreferrer">
                   <p className="directions d-flex justify-content-center">
-                  <Badge bg="danger">Click Here to Open Google Maps</Badge>
+                  <Badge bg="danger">View in Google Maps</Badge>
                   </p>
                 </a>
               </Card.Body>
