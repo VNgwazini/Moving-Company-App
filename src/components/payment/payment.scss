@@ -1,0 +1,19 @@
+.payment{
+  background: white;
+  color: maroon;
+
+  .img-thumbnail {
+    height:15em;
+    object-fit:contain;
+  }
+  .card-size{
+    height: 100%;
+  }
+  .card-title{
+    font-weight: 700;
+  }
+
+  h5{
+    font-weight: 700;
+  }
+}

@@ -11,12 +11,14 @@ import OfferedServices from './components/offeredServices/OfferedServices';
 import Testimonials from './components/testimonials/Testimonials';
 import Signature from './components/signature/Signature';
 import MapHours from './components/mapHours/MapHours';
+import Payment from './components/payment/Payment';
 
 ReactDOM.render(
   <BrowserRouter>
   <Topbar/>
   <Home/>
   <OfferedServices/>
+  <Payment/>
   <Testimonials/>
   <MapHours/>
   <Signature/>
