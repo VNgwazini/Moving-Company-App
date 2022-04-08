@@ -223,9 +223,6 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
           </Row>
         </FadeIn>
     </Container>
-    <FadeIn>
-      <MapHours/>
-    </FadeIn>
     </>
   )
 
