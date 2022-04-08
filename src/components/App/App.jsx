@@ -5,8 +5,6 @@ import Home from "../home/Home";
 import OfferedServices from "../offeredServices/OfferedServices";
 import Payment from "../payment/Payment";
 import Testimonials from "../testimonials/Testimonials";
-import MapHours from "../mapHours/MapHours";
-import Signature from "../signature/Signature";
 
 export default function App() {
 
@@ -17,7 +15,6 @@ export default function App() {
       <OfferedServices/>
       <Payment/>
       <Testimonials/>
-      <MapHours/>
     </FadeIn>
     </>
   )

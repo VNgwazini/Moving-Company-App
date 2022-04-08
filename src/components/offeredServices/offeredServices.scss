@@ -8,12 +8,20 @@
     background-color: whitesmoke;
     p{
       font-size: medium;
+      color: maroon !important;
     }
   }
 
   .trusted-title{
     font-size: 40px;
     font-weight: 900;
+  }
+  a{
+    color: maroon;
+  }
+  a:link, a:visited,  a:hover, a:active{
+    text-decoration: none !important;
+    color: maroon !important;
   }
 
 }

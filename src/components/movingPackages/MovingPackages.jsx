@@ -6,7 +6,6 @@ import {
   Button,
   Accordion,
 } from 'react-bootstrap/'
-import MapHours from "../mapHours/MapHours";
 import FadeIn from 'react-fade-in';
 
 

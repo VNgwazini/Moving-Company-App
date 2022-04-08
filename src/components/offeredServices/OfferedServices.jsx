@@ -23,34 +23,46 @@ export default function OfferedServices() {
         </Row>
         <Row>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <HomeTwoTone/> &nbsp; Residential Moving
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <HomeTwoTone/> &nbsp; Residential Moving
+              </p>
+            </a>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <LocationCity/> &nbsp; Commercial Moving
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <LocationCity/> &nbsp; Commercial Moving
+              </p>
+            </a>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <BuildOutlined/> &nbsp; Furniture Disassembly
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <BuildOutlined/> &nbsp; Furniture Disassembly
+              </p>
+            </a>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <EventSeat/> &nbsp; Furniture Assembly
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <EventSeat/> &nbsp; Furniture Assembly
+              </p>
+            </a>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <Delete/> &nbsp; Junk/Trash Hauling
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <Delete/> &nbsp; Junk &amp; Trash Hauling
+              </p>
+            </a>
           </Col>
           <Col className="" sm={3} md={4} lg={4}>
-            <p className="text-center">
-            <AllInbox/> &nbsp; Packing &amp; Wrapping
-            </p>
+            <a href="/movingPackages">
+              <p className="text-center">
+              <AllInbox/> &nbsp; Packing &amp; Wrapping
+              </p>
+            </a>
           </Col>
         </Row>
       </Container>
