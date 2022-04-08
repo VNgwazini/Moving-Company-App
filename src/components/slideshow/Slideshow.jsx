@@ -3,11 +3,9 @@ import {
  Container, 
  Row,
  Col,
- Button,
  Carousel,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
-import Testimonial from 'react-testimonial';
 
 
 export default function Slideshow() {
