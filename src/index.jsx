@@ -8,6 +8,7 @@ import Topbar from './components/topbar/Topbar';
 import Footer from './components/footer/Footer';
 import App from './components/App/App';
 import MovingPackages from './components/movingPackages/MovingPackages';
+import Signature from './components/signature/Signature';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Route exact path="/" component={App}/>
       <Route exact path="/home" component={App}/>
       <Route exact path="/movingPackages" component={MovingPackages}/>
+      <Signature/>
     <Footer/>
   </BrowserRouter>,
 document.getElementById('root')

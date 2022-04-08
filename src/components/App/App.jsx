@@ -18,7 +18,6 @@ export default function App() {
       <Payment/>
       <Testimonials/>
       <MapHours/>
-      <Signature/>
     </FadeIn>
     </>
   )
