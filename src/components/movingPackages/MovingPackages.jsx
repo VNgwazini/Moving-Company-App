@@ -7,6 +7,7 @@ import {
   Accordion,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
+import Slideshow from "../slideshow/Slideshow";
 
 
 export default function MovingPackages() {
@@ -222,6 +223,9 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
           </Row>
         </FadeIn>
     </Container>
+    <FadeIn>
+      <Slideshow/>
+    </FadeIn>
     </>
   )
 
