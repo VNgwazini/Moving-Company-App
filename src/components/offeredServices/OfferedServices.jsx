@@ -11,7 +11,7 @@ import FadeIn from 'react-fade-in';
 export default function OfferedServices() {
  
  return (
-  <Container className="home content-container" id="home" fluid="true">
+  <Container className="offeredServices content-container" id="offeredServices" fluid="true">
     <FadeIn>
       <Container className="content-container trusted py-4 px-4" fluid="true">
         <Row>
