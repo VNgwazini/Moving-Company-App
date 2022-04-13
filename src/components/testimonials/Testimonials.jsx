@@ -72,8 +72,7 @@ export default function Testimonials() {
                   <h3 className="py-2">Kat DeLong</h3>
                   <p>
                     Nigel and his crew were very professional, 
-                    handled our furniture with care (wrapped every piece), 
-                    courteous and thoughtful. 
+                    handled our furniture with care. 
                   </p>
                 </div>
               </div>
