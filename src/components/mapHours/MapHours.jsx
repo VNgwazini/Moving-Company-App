@@ -5,10 +5,19 @@ import {
  Col,
  Card,
  ListGroup,
- Badge,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
 
+function chooseMap() {
+  //open apple maps on iphone and ipad
+  if(navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)){
+    window.open("https://maps.apple.com/?address=7428%20Boulder%20Ave,%20Highland,%20CA%20%2092346,%20United%20States&auid=5134410362477888424&ll=34.119287,-117.195053&lsp=9902&q=Nitro%20Moving&_ext=CjMKBQgEEOIBCgQIBRADCgUIBhCvAQoECAoQAAoECFIQBAoECFUQAAoECFkQBgoFCKQBEAESJilRUXWFtQ5BQDFOhSpi0kxdwDnPJpvh2w9BQEH2Rx+aIExdwFAE");
+  }
+  //otherwise open google maps
+  else {
+    window.open("https://www.google.com/maps/place/Nitro+Moving+Company/@34.1202847,-117.1976558,17z/data=!3m1!4b1!4m5!3m4!1s0x80c355fd7936f583:0xf523a483338a59b9!8m2!3d34.1202847!4d-117.1954671");
+  }
+}
 
 export default function MapHours() {
  
@@ -50,14 +59,9 @@ export default function MapHours() {
                 >
                 </iframe>
                 <br></br>
-                <Card.Text>
+                <Card.Text onClick={chooseMap}>
                   7428 Boulder Ave, Highland, CA 92346
                 </Card.Text>
-                <a href="https://g.page/nitro-moving-company?share" target="_blank" rel="noreferrer">
-                  <p className="directions d-flex justify-content-center">
-                  <Badge bg="danger">View in Google Maps</Badge>
-                  </p>
-                </a>
               </Card.Body>
             </Card>
           </Col>
