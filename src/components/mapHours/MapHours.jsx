@@ -5,7 +5,6 @@ import {
  Col,
  Card,
  ListGroup,
- Badge,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
 
@@ -63,11 +62,6 @@ export default function MapHours() {
                 <Card.Text onClick={chooseMap}>
                   7428 Boulder Ave, Highland, CA 92346
                 </Card.Text>
-                <a href="https://g.page/nitro-moving-company?share" target="_blank" rel="noreferrer">
-                  <p className="directions d-flex justify-content-center">
-                  <Badge bg="danger">View in Google Maps</Badge>
-                  </p>
-                </a>
               </Card.Body>
             </Card>
           </Col>
