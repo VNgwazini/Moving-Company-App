@@ -3,7 +3,10 @@
   position:relative;
   background: white;
   color: maroon;
-
+  .carousel-inner{
+    max-height: 608px !important;
+    max-width: 1080px !important;
+  }
 
   .home-title{
     font-size: 50px;
