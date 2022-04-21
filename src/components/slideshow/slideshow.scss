@@ -12,6 +12,10 @@
       color: black;
       font-size: medium;
     }
+    img {
+      float: left;
+      object-fit: fill;
+    }
   }
   .card{
     border-color: transparent !important;
@@ -25,5 +29,4 @@
     height: 50%;
     width: 100%;
   }
-
 }
