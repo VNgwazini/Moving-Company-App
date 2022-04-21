@@ -61,7 +61,7 @@ export default function Home() {
             </Col>
           </Row> */}
           <Row className="h-50">
-            <Col className="d-flex justify-content-center" lg={12} md={12} sm={12}>
+            <Col className="d-flex justify-content-center" lg={12} md={12} sm={12} xs={12}>
               <Carousel>
                 <Carousel.Item>
                   <img
@@ -79,9 +79,9 @@ export default function Home() {
                     src="assets/Nitro_logo_slogan.jpg"
                     alt="Call Us Today!"
                   />
-                  <Carousel.Caption>
+                  {/* <Carousel.Caption>
                     <h5>Call Us Today!</h5>
-                  </Carousel.Caption>
+                  </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -89,9 +89,9 @@ export default function Home() {
                     src="assets/Nitro_blue_wrap.jpg"
                     alt="Commercial Moving Package"
                   />
-                  <Carousel.Caption>
+                  {/* <Carousel.Caption>
                     <h5>Residential Moving Package</h5>
-                  </Carousel.Caption>
+                  </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -99,9 +99,9 @@ export default function Home() {
                     src="assets/Nitro_chairs.jpg"
                     alt="Furniture Assembly &amp; Disassembly Package"
                   />
-                  <Carousel.Caption>
+                  {/* <Carousel.Caption>
                   <h5>Commercial Moving Package</h5>
-                  </Carousel.Caption>
+                  </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -109,9 +109,9 @@ export default function Home() {
                     src="assets/Nitro_truck_sideview.jpg"
                     alt="Junk &amp; Trash Hauling Package"
                   />
-                  <Carousel.Caption>
+                  {/* <Carousel.Caption>
                     <h5>Junk &amp; Trash Hauling Package</h5>
-                  </Carousel.Caption>
+                  </Carousel.Caption> */}
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -119,9 +119,9 @@ export default function Home() {
                     src="assets/Nitro_Assembly.png"
                     alt="Furniture Assembly &amp; Disassembly Package"
                   />
-                  <Carousel.Caption>
+                  {/* <Carousel.Caption>
                     <h5>Furniture Assembly &amp; Disassembly Package</h5>
-                  </Carousel.Caption>
+                  </Carousel.Caption> */}
                 </Carousel.Item>
               </Carousel>
             </Col>
