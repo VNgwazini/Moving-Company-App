@@ -7,7 +7,6 @@ import {
  Carousel,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
-import Slideshow from "../slideshow/Slideshow";
 
 
 export default function Home() {
