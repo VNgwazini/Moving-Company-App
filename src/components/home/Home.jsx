@@ -6,6 +6,7 @@ import {
  Button,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
+import Slideshow from "../slideshow/Slideshow";
 
 
 export default function Home() {
@@ -56,6 +57,11 @@ export default function Home() {
               alt="Headshot"
               className="img-thumbnail"
               />
+            </Col>
+          </Row>
+          <Row className="h-50">
+            <Col className="d-flex justify-content-center" lg={12} md={12} sm={12}>
+              <Slideshow/>
             </Col>
           </Row>
         </FadeIn>
