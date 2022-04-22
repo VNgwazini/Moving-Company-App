@@ -4,12 +4,18 @@ import {
  Row,
  Col,
  Button,
+ Offcanvas,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
+import { InlineWidget } from "react-calendly";
+import React, { useState } from 'react';
 
 
 export default function Home() {
- 
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
  return (
   <Container className="home content-container pt-4" id="home" fluid="true">
     <FadeIn>
@@ -39,9 +45,22 @@ export default function Home() {
           </Row>
           <Row className="primary-buttons py-4">
             <Col className="">
-              <Button variant="danger" href="https://calendly.com/nitromovingcompany" target="_blank">
+              <Button variant="danger" onClick={handleShow}>
               Book an Appointment
               </Button>
+              <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Book an Appointment</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <InlineWidget 
+                    url="https://calendly.com/nitromovingcompany" 
+                    styles={{
+                      height: '100%'
+                    }}
+                  />
+                </Offcanvas.Body>
+              </Offcanvas>
             </Col>
             <Col className="">
               <Button variant="outline-danger" href="tel:+1-909-963-6249">
