@@ -54,7 +54,7 @@ export default function Home() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <InlineWidget 
-                    url="https://calendly.com/nitromovingcompany" 
+                    url="https://calendly.com/nitromovingcompany?hide_gdpr_banner=1" 
                     styles={{
                       height: '100%'
                     }}
