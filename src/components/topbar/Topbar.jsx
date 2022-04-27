@@ -2,11 +2,20 @@ import "./topbar.scss";
 import { 
   Container,
   Nav, 
-  Navbar
+  Navbar,
+  Offcanvas
 } from 'react-bootstrap/'
-import {Home, Phone, Mail, Directions, Instagram } from "@material-ui/icons"
+import {Home, Beenhere,Phone, Mail, Directions, Instagram } from "@material-ui/icons"
+import { InlineWidget } from "react-calendly";
+import React, { useState } from 'react';
 
 export default function Topbar() {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <Container className="topbar py-4 px-4 content-container" id="topbar" fluid="true">
       <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top" id="navbar" className="px-3">
@@ -24,6 +33,23 @@ export default function Topbar() {
             <Phone className="icon"/>
             &nbsp; Call Now
           </Nav.Link>
+          <Nav.Link onClick={handleShow}>
+            <Beenhere className="icon"/>
+            &nbsp; Book Now
+          </Nav.Link>
+          <Offcanvas show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                  <Offcanvas.Title>Book an Appointment</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                  <InlineWidget 
+                    url="https://calendly.com/nitromovingcompany?hide_gdpr_banner=1" 
+                    styles={{
+                      height: '100%'
+                    }}
+                  />
+                </Offcanvas.Body>
+              </Offcanvas>
           <Nav.Link href="https://g.page/nitro-moving-company?share" target="_blank">
             <Directions className="icon"/>
             &nbsp; Directions
