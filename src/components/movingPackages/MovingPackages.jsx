@@ -11,7 +11,9 @@ import Slideshow from "../slideshow/Slideshow";
 
 
 export default function MovingPackages() {
-const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/preview"
+  const url2Man = "https://drive.google.com/file/d/1fk1qOUiDmOkhxxX_Y3d8wz1NHpGVKQ-0/preview"
+  const url3Man = "https://drive.google.com/file/d/1aXGZ7Qviic5oQ-AYJ4xhhWu3i7jqMQlU/preview"
+  const url4Man = "https://drive.google.com/file/d/1PopJC7AuFYUpbcaTwRMXwxM0_jgz7mH6/preview"
   return (
     <>
     <Container className="movingPackages content-container py-4 text-center" id="movingPackages" fluid="true">
@@ -44,13 +46,13 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
             <Col lg={6} md={12} sm={12} xs={12}>
               <Accordion>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>Residential Moving Package</Accordion.Header>
+                  <Accordion.Header>Residential 2-Man Moving Package</Accordion.Header>
                   <Accordion.Body>
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <Button variant="danger">
                           <a 
-                            href="https://drive.google.com/uc?id=1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm&export=download" 
+                            href="https://drive.google.com/uc?id=1fk1qOUiDmOkhxxX_Y3d8wz1NHpGVKQ-0&export=download" 
                             target="_blank" 
                             rel="noreferrer" 
                             class="btn">Download Contract
@@ -68,7 +70,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <iframe
-                          src={url+"#toolbar=1&navpanes=0&scrollbar=0"}
+                          src={url2Man+"#toolbar=1&navpanes=0&scrollbar=0"}
                           className="px-4"
                           frameBorder="0"
                           scrolling="auto"
@@ -79,13 +81,13 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                  <Accordion.Header>Commercial Moving Package</Accordion.Header>
+                <Accordion.Header>Residential 3-Man Moving Package</Accordion.Header>
                   <Accordion.Body>
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <Button variant="danger">
                           <a 
-                            href="https://drive.google.com/uc?id=1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm&export=download" 
+                            href="https://drive.google.com/uc?id=1aXGZ7Qviic5oQ-AYJ4xhhWu3i7jqMQlU&export=download" 
                             target="_blank" 
                             rel="noreferrer" 
                             class="btn">Download Contract
@@ -103,7 +105,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <iframe
-                          src={url+"#toolbar=1&navpanes=0&scrollbar=0"}
+                          src={url3Man+"#toolbar=1&navpanes=0&scrollbar=0"}
                           className="px-4"
                           frameBorder="0"
                           scrolling="auto"
@@ -114,13 +116,13 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                  <Accordion.Header>Furniture Assembly &amp; Disassembly Package</Accordion.Header>
+                <Accordion.Header>Residential 4-Man Moving Package</Accordion.Header>
                   <Accordion.Body>
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <Button variant="danger">
                           <a 
-                            href="https://drive.google.com/uc?id=1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm&export=download" 
+                            href="https://drive.google.com/uc?id=1PopJC7AuFYUpbcaTwRMXwxM0_jgz7mH6&export=download" 
                             target="_blank" 
                             rel="noreferrer" 
                             class="btn">Download Contract
@@ -138,7 +140,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                     <Row>
                       <Col className="d-flex justify-content-center py-2">
                         <iframe
-                          src={url+"#toolbar=1&navpanes=0&scrollbar=0"}
+                          src={url4Man+"#toolbar=1&navpanes=0&scrollbar=0"}
                           className="px-4"
                           frameBorder="0"
                           scrolling="auto"
@@ -148,7 +150,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                     </Row>
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="3">
+'                {/* <Accordion.Item eventKey="3">
                   <Accordion.Header>Junk &amp; Trash Hauling Package</Accordion.Header>
                   <Accordion.Body>
                     <Row>
@@ -182,7 +184,7 @@ const url = "https://drive.google.com/file/d/1w_uV7HSoVg_yAu7VXPimw_SSL6GmkkRm/p
                       </Col>
                     </Row>
                   </Accordion.Body>
-                </Accordion.Item>
+                </Accordion.Item>' */}
                 {/* <Accordion.Item eventKey="4">
                   <Accordion.Header>Packing &amp; Wrapping Package</Accordion.Header>
                   <Accordion.Body>
