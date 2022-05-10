@@ -61,7 +61,7 @@ export default function Testimonials() {
                   </p>
                 </div>
               </div>
-              <div className="card content">
+              {/* <div className="card content">
                 <div className="card-body text-center">
                   <img
                   className="py-2"
@@ -89,7 +89,7 @@ export default function Testimonials() {
                     Malvin is highly knowledgable with every aspect of the moving industry.   
                   </p>
                 </div>
-              </div>
+              </div> */}
             </Testimonial>
           </Col>
         </Row>
