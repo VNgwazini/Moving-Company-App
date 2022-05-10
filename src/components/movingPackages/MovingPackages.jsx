@@ -221,6 +221,9 @@ export default function MovingPackages() {
                   </Accordion.Body>
                 </Accordion.Item> */}
               </Accordion>
+              <p className="text-center px-4">
+                *Rates are subject to change based on location.*
+              </p>
             </Col>
           </Row>
         </FadeIn>
