@@ -61,7 +61,7 @@ export default function Testimonials() {
                   </p>
                 </div>
               </div>
-              <div className="card content">
+              {/* <div className="card content">
                 <div className="card-body text-center">
                   <img
                   className="py-2"
@@ -72,8 +72,7 @@ export default function Testimonials() {
                   <h3 className="py-2">Kat DeLong</h3>
                   <p>
                     Nigel and his crew were very professional, 
-                    handled our furniture with care (wrapped every piece), 
-                    courteous and thoughtful. 
+                    handled our furniture with care. 
                   </p>
                 </div>
               </div>
@@ -90,7 +89,7 @@ export default function Testimonials() {
                     Malvin is highly knowledgable with every aspect of the moving industry.   
                   </p>
                 </div>
-              </div>
+              </div> */}
             </Testimonial>
           </Col>
         </Row>

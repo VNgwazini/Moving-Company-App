@@ -5,7 +5,7 @@ import {
   Navbar,
   Offcanvas
 } from 'react-bootstrap/'
-import {Home, Beenhere,Phone, Mail, Directions, Instagram } from "@material-ui/icons"
+import {Home, Beenhere,Phone, Mail, Directions, Description,Instagram } from "@material-ui/icons"
 import { InlineWidget } from "react-calendly";
 import React, { useState } from 'react';
 
@@ -28,6 +28,10 @@ export default function Topbar() {
           <Nav.Link href="/">
             <Home className="icon"/>
             &nbsp; Home
+          </Nav.Link>
+          <Nav.Link href="/movingPackages">
+            <Description className="icon"/>
+            &nbsp; Moving Packages
           </Nav.Link>
           <Nav.Link href="tel:+1-909-963-6249" target="_blank">
             <Phone className="icon"/>
