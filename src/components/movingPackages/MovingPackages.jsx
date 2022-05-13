@@ -150,7 +150,7 @@ export default function MovingPackages() {
                     </Row>
                   </Accordion.Body>
                 </Accordion.Item>
-'                {/* <Accordion.Item eventKey="3">
+                {/* <Accordion.Item eventKey="3">
                   <Accordion.Header>Junk &amp; Trash Hauling Package</Accordion.Header>
                   <Accordion.Body>
                     <Row>
@@ -221,6 +221,9 @@ export default function MovingPackages() {
                   </Accordion.Body>
                 </Accordion.Item> */}
               </Accordion>
+              <p className="text-center pt-2 px-4">
+                *Rates are subject to change based on location.*
+              </p>
             </Col>
           </Row>
         </FadeIn>
