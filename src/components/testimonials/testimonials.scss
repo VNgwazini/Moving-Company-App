@@ -13,8 +13,13 @@
       font-size: medium;
     }
   }
+  
   .card{
     border-color: transparent !important;
+    .card-title{
+      font-size: x-large;
+      font-weight: bold;
+    }
   }
 
   .card-text{
