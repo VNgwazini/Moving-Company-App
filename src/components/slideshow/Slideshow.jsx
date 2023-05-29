@@ -4,6 +4,8 @@ import {
  Row,
  Col,
  Carousel,
+ Card,
+ ListGroup,
 } from 'react-bootstrap/'
 import FadeIn from 'react-fade-in';
 
@@ -14,7 +16,45 @@ export default function Slideshow() {
   <Container className="home content-container pb-4" id="home" fluid="true">
     <FadeIn>
       <Container className="content-container testimonials py-4 px-4">
+      {/* <Row>
+        <Col className="d-flex justify-content-center py-4">
+              <Card className="card-size">
+                <Card.Title className="text-center px-2">Business Hours</Card.Title>
+                <Card.Body className="text-center">
+                  <ListGroup variant="flush">
+                    <ListGroup.Item>Mon:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Tue:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Wed:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Thu:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Fri:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Sat:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Sun:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  </ListGroup>
+                  <Card.Text>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+        </Row> */}
         <Row className="d-flex justify-content-center">
+        <Col className="d-flex justify-content-center pb-4" lg={4} md={12} sm={12}>
+              <Card className="card-size">
+                <Card.Title className="text-center px-2">Business Hours</Card.Title>
+                <Card.Body className="text-center">
+                  <ListGroup variant="flush">
+                    <ListGroup.Item>Mon:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Tue:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Wed:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Thu:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Fri:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Sat:	7:00 AM – 8:00 PM</ListGroup.Item>
+                    <ListGroup.Item>Sun:	7:00 AM – 8:00 PM</ListGroup.Item>
+                  </ListGroup>
+                  <Card.Text>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
           <Col lg={6} md={12} sm={12} xs={12}>
             <Carousel>
             <Carousel.Item>
